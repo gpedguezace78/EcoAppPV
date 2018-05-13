@@ -18,7 +18,14 @@
         </activity>
         <activity
             android:name=".VentasActivity"
-            android:label= "@string/title_activity_ventas"></activity>
+            android:label= "@string/title_activity_ventas">
+            <intent-filter>
+                <action android:name="android.intent.action.VENTASACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
     </application>
 
 </manifest>
