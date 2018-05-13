@@ -18,7 +18,7 @@
         </activity>
         <activity
             android:name=".VentasActivity"
-            android:label="@string/title_activity_ventas"></activity>
+            android:label= "@string/title_activity_ventas"></activity>
     </application>
 
 </manifest>

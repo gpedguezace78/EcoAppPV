@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Acceso PV</string>
-    <string name="title_activity_ventas">Ventas</string>
+    <string name="title_activity_ventas">VentasActivity</string>
     <string name="title_home">Ventas</string>
     <string name="title_dashboard">Compras</string>
     <string name="title_notifications">Almacen</string>
