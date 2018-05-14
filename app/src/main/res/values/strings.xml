@@ -3,4 +3,5 @@
     <string name="title_activity_ventas">Ventas</string>
     <string name="title_activity_compras">Compras</string>
     <string name="title_activity_almacen">Almacen</string>
+    <string name="title_activity_actualiza_prueba">ActualizaPrueba</string>
 </resources>
