@@ -18,14 +18,30 @@
         </activity>
         <activity
             android:name=".VentasActivity"
-            android:label= "@string/title_activity_ventas">
+            android:label="@string/title_activity_ventas">
             <intent-filter>
                 <action android:name="android.intent.action.VENTASACTIVITY" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ComprasActivity"
+            android:label="@string/title_activity_compras">
+            <intent-filter>
+                <action android:name="android.intent.action.COMPRASACTIVITY" />
 
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AlmacenActivity"
+            android:label="@string/title_activity_almacen">
+            <intent-filter>
+                <action android:name="android.intent.action.COMPRASACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
