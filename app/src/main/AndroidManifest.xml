@@ -43,10 +43,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".Ventas"
-            android:label="@string/title_activity_ventas"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".PruebaUpdActivity"></activity>
     </application>
 
 </manifest>
