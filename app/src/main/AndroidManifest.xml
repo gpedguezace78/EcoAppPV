@@ -34,7 +34,8 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".AlmacenActivity"
+        <activity
+            android:name=".AlmacenActivity"
             android:label="@string/title_activity_almacen">
             <intent-filter>
                 <action android:name="android.intent.action.COMPRASACTIVITY" />
@@ -42,6 +43,10 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Ventas"
+            android:label="@string/title_activity_ventas"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
